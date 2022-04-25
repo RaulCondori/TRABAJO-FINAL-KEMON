@@ -1,18 +1,124 @@
-html {
-  font-size: 14px;
+
+#menu-izq {
+  width: 25%;
+  height: 96.3%;
+  margin-top: -0.5%;
+  background-color:#2F2F2F;
+  position: absolute;
+  transition: all 500ms ease;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-100%);
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+#btn-menu:checked ~ #menu-izq {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0%);
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+#cuerpo-sup {
+  width: 95%;
+  margin-left:4%;
+  margin-top:1%;
+  height: 15%;
+  background-color:#2F2F2F;
+  position: absolute;
+}
+
+#cuerpo-med {
+  width: 70%;
+  height: 18%;
+  margin-left: 4%;
+  margin-top:10%;
+  background-color:#2F2F2F;
+  position: absolute;
+}
+
+#cuerpo-inf {
+  width: 70%;
+  height: 57%;
+  margin-left: 4%;
+  margin-top:20%;
+  background-color:pink;
+  position: absolute;
+}
+
+#reproductor{
+  width: 24%;
+  height: 78%;
+  margin-top:10%;
+  margin-left: 75%;
+  background-color:#454343;
+  position: absolute;
+}
+
+#cuerpo-noticias{
+  background-color:#2F2F2F;
+  width: 30%;
+  height:100%;
+  margin-left: 70%;
+  position: absolute;
+}
+
+#cuerpo-listas{
+  background-color:#2F2F2F;
+  width: 70.1%;
+  height:100%;
+  position: absolute;
 }
 
 body {
-  margin-bottom: 60px;
+  background-color:#000000;
+}
+
+#boton{
+  position: absolute;
+  background-color:#9F03FF;
+  margin-top: 10%;
+  margin-left: 0%;
+  border-radius: 100%;
+  height: 4.5%;
+  width: 3%;
+
+}
+
+.btn-menu label {
+  cursor: pointer;
+}
+
+#menu-izq nav {
+  transform: translateY(15%);
+}
+
+#menu-izq nav a{
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+  border-left: 5px solid transparent;
+  transition: all 500ms ease;
+}
+
+#menu-izq nav a:hover{
+  border-left: 5px solid white;
+  background: gray;
+}
+
+#menu-izq label{
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  color: red;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#fondo {
+  background-color:rgba(184, 109, 255, 0.623);
+  position: absolute;
+  height:100%;
+  width: 300%;
+  margin-left:100%;
+  margin-top: -66.5%;
 }
