@@ -1,21 +1,6 @@
 
-#menu-izq {
-  width: 25%;
-  height: 96.3%;
-  margin-top: -0.5%;
-  background-color:#2F2F2F;
-  position: absolute;
-  transition: all 500ms ease;
-  opacity: 0;
-  visibility: hidden;
-  transform: translateX(-100%);
-}
 
-#btn-menu:checked ~ #menu-izq {
-  opacity: 1;
-  visibility: visible;
-  transform: translateX(0%);
-}
+/* INICIO CUERPO SUPERIOR */
 
 #cuerpo-sup {
   width: 95%;
@@ -25,6 +10,86 @@
   background-color:#2F2F2F;
   position: absolute;
 }
+
+#cuerpo-login{
+  width: 14%;
+  height: 100%;
+  position: absolute;
+  margin-left:86%;
+}
+
+#cuerpo-unirse{
+  width: 14%;
+  height: 100%;
+  position: absolute;
+  margin-left:72%;
+}
+
+#cuerpo-recomendaciones{
+  width: 14%;
+  height: 100%;
+  position: absolute;
+  margin-left:58%;
+}
+
+#cuerpo-busqueda{
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  margin-left:33%;
+}
+
+#cuerpo-titulo{
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  margin-left:13%;
+}
+
+#cuerpo-logo{
+  width: 14%;
+  height: 100%;
+  position: absolute;
+  margin-left:0%;
+}
+
+#cuerpo-logo img{
+  height: 100%;
+  margin-top: -2%;
+  margin-left: -8%;
+}
+
+#cuerpo-titulo p{
+  font-size: 28px ;
+  margin-top: 12%;
+}
+
+#cuerpo-busqueda p{
+  font-size: 28px ;
+  margin-top: 10%;
+}
+
+#cuerpo-recomendaciones p{
+  font-size: 20px ;
+  margin-top: 20%;
+}
+
+#cuerpo-unirse p{
+  font-size: 20px ;
+  margin-top: 20%;
+}
+
+#cuerpo-login p{
+  font-size: 20px ;
+  margin-top: 20%;
+}
+
+#cuerpo-sup p{
+  color: white;
+  font-weight: bold;
+}
+
+/* FIN CUERPO SUPERIOR */
 
 #cuerpo-med {
   width: 70%;
@@ -72,15 +137,40 @@ body {
   background-color:#000000;
 }
 
+/*  INICIO MENU LATERAL */
+#menu-izq {
+  width: 25%;
+  height: 100%;
+  margin-top: -2.3%;
+  background-color:#837d7d;
+  position: absolute;
+  transition: all 500ms ease;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-100%);
+}
+
+#btn-menu:checked ~ #menu-izq {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0%);
+}
+
 #boton{
   position: absolute;
   background-color:#9F03FF;
-  margin-top: 10%;
-  margin-left: 0%;
+  margin-top: 20%;
+  margin-left: 0.5%;
   border-radius: 100%;
   height: 4.5%;
   width: 3%;
 
+}
+
+#boton img{
+  margin-top:3%;
+  margin-left:5%;
+  width: 65%;
 }
 
 .btn-menu label {
@@ -102,7 +192,7 @@ body {
 
 #menu-izq nav a:hover{
   border-left: 5px solid white;
-  background: gray;
+  background: rgb(162, 2, 194);
 }
 
 #menu-izq label{
@@ -114,11 +204,99 @@ body {
   font-size: 18px;
 }
 
-#fondo {
-  background-color:rgba(184, 109, 255, 0.623);
-  position: absolute;
-  height:100%;
-  width: 300%;
-  margin-left:100%;
-  margin-top: -66.5%;
+#menu-izq img{
+  width: 6%;
+  margin-top: 2%;
+  margin-left:85%
 }
+
+/* FINAL MENU LATERAL */
+
+/* INICIO PANTALLA LOGIN */
+
+#menu-login {
+  width: 100%;
+  height: 100.7%;
+  margin-top: -2%;
+  background-color:#707190bb;
+  position: absolute;
+  transition: all 500ms ease;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-100%);
+}
+
+#btn-login:checked ~ #menu-login {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0%);
+}
+
+
+#boton-login{
+  position: absolute;
+  background-color:#9e03ff00;
+  margin-top: 30%;
+  margin-left: 0.5%;
+  border-radius: 100%;
+  height: 4.5%;
+  width: 3%;
+
+}
+
+#boton-login img{
+  margin-top:3%;
+  width: 65%;
+}
+
+.btn-login label {
+  cursor: pointer;
+}
+
+#menu-login label{
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  color: red;
+  cursor: pointer;
+  font-size: 18px;
+}
+/* FINAL PANTALLA LOGIN */
+
+
+/* INICIO FORMULARIO LOGIN */
+#fondo-log{
+  background-color: #2F2F2F;
+  width: 25%;
+  height: 70%;
+  margin-left:40%;
+  margin-top:10%;
+  border-radius:5%;
+}
+
+#form-log{
+  position: absolute;
+  margin-top:8%;
+  margin-left: 6%;
+  color:white;
+}
+
+#menu-login img{
+  width: 6%;
+  margin-top: 30%;
+  margin-left:-120%
+}
+
+#form-log img{
+  position: absolute;
+  height: 80%;
+  width: 90%;
+  margin-top:-145%;
+  margin-left:-48%;
+}
+
+#form-log input{
+border-radius: 15%;
+}
+/* FIN FORMULARIO LOGIN */
+
