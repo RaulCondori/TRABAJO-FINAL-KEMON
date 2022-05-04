@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y3ydRkzs3TLQKKBoOWrhcYnB4mMxpjjHpu+yciOrVUp9ccec2smYvHLi5mnYL2on+ZJEpHrnc0WVKxIDJc3oqg==",
+  "dgSpecHash": "g2BKAmqlupR7ncOLlPKe0dtTZYzltZL0VP6WOT18B+q0HP1/PPyXuBUZWahRtJxWG1vJpsGpIyHdg30GPxSt5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\TRABAJO FINAL KEMONO\\KEMONO\\KEMONO.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\TRABAJO-FINAL-KEMON\\KEMONO\\KEMONO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
