@@ -16308,6 +16308,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\PC\\Desktop\\Proyecto\\TRABAJO-FINAL-KEMON\\KEMONO\\Views\\Home\\compra.cshtml",
+      "TargetPath": "Views\\Home\\compra.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\PC\\Desktop\\Proyecto\\TRABAJO-FINAL-KEMON\\KEMONO\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
