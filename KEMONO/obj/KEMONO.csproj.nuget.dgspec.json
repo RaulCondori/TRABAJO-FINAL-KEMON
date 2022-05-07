@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\TRABAJO-FINAL-KEMON\\KEMONO\\KEMONO.csproj": {}
+    "C:\\Users\\PC\\Desktop\\Proyecto\\TRABAJO-FINAL-KEMON\\KEMONO\\KEMONO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\TRABAJO-FINAL-KEMON\\KEMONO\\KEMONO.csproj": {
+    "C:\\Users\\PC\\Desktop\\Proyecto\\TRABAJO-FINAL-KEMON\\KEMONO\\KEMONO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\TRABAJO-FINAL-KEMON\\KEMONO\\KEMONO.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Proyecto\\TRABAJO-FINAL-KEMON\\KEMONO\\KEMONO.csproj",
         "projectName": "KEMONO",
-        "projectPath": "C:\\Users\\user\\Desktop\\TRABAJO-FINAL-KEMON\\KEMONO\\KEMONO.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\TRABAJO-FINAL-KEMON\\KEMONO\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Desktop\\Proyecto\\TRABAJO-FINAL-KEMON\\KEMONO\\KEMONO.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\Proyecto\\TRABAJO-FINAL-KEMON\\KEMONO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
